@@ -2,6 +2,10 @@
 
 Pruebas end-to-end de **AI Energy Management** Playwright y TypeScript, usando el patrón Page Object Model.
 
+## Video Demo de ejecución
+
+[`https://drive.google.com/file/d/1cxx_mmWKe5XEFdGj32DaGk2YehcQLG6O/view?usp=sharing`](https://drive.google.com/file/d/1cxx_mmWKe5XEFdGj32DaGk2YehcQLG6O/view?usp=sharing)
+
 ## Requisitos
 
 - Node.js 22 o superior
