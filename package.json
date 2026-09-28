@@ -1,0 +1,25 @@
+{
+  "name": "ia-energy-management-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "allure:generate": "allure generate allure-results",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure generate allure-results --open",
+    "allure:clean": "node -e \"require('fs').rmSync('allure-results',{recursive:true,force:true})\"",
+    "docker:build": "docker compose build",
+    "docker:test": "docker compose run --rm e2e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "26.6.3",
+    "allure": "3.18.0",
+    "allure-playwright": "3.12.2"
+  }
+}
